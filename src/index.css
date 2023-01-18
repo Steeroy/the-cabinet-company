@@ -1,13 +1,23 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@400;500;700&display=swap');
+
+#root {
+  overflow: hidden;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+:root {
+  --primary: #000d28;
+  --secondary: #cc9933;
+  --tertiary: #001031;
 }

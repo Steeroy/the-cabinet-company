@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# The Cabinet Company
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Initialising and Installations
 
-## Available Scripts
+This is a landing page project about a company that sells cabinets. The was fully designed by Impact Studio, both mobile and desktop design. You can visit their link on [Impact Studio](http://www.impactstudio.co.za/). For this project I used `ReactJS` instead of the basic `HTML, CSS and Javascript` project. To learn more about `ReactJS` you can visit the link [ReactJS](https://reactjs.org/docs/getting-started.html).
 
-In the project directory, you can run:
+With the use of `ReactJS`, specifically `npm` ([NPM](https://www.npmjs.com/)) which is an open source library where you can borrow and share packages. I installed (borrowed) these packages:
 
-### `npm start`
+```json
+  "dependencies":
+    {
+      "@iconify/react": "^4.0.1",
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "bootstrap": "^5.2.3",
+      "react": "^18.2.0",
+      "react-bootstrap": "^2.7.0",
+      "react-dom": "^18.2.0",
+      "react-scripts": "5.0.1",
+      "react-slick": "^0.29.0",
+      "slick-carousel": "^1.8.1",
+      "swiper": "^8.4.5",
+      "web-vitals": "^2.1.4"
+    }
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+which is the `dependencies` section in `package.json`, this helps us install these packages with the use of `npm`, and make use of these packages. These are installed into the node modules folder. Some of the `dependencies` are pre-built, so as you initialise the project with:
 
-### `npm test`
+```js
+ $npx create-react-app [project_name]
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Then these dependencies are also installed, as they make up a basic `ReactJs` app. For most of my projects I use `Bootstrap, react-bootstrap, @iconify/react` to increase productivity. I do not fully use them, but in cases where it makes the job simpler and cleaner. You can read about the packages on [Bootstrap](https://getbootstrap.com/) (open source templates), [Iconify](https://iconify.design/) (open source icons from almost all major icons libraries such as Font Awesome, Material UI etc).
 
-### `npm run build`
+## Folder Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For most of my projects I normally approach a project using a certain way for folder structure, depending on how big the project is, determines the structure of my folders. For a big project, that would need multiple screens, I always create two folders in my `src` folder. These folders are `components` and `screens`, components folder has all the components I use in the project as general cases, things such as `product cards, navbar, footer, project cards etc`, instead of making the same items 5 to 10 and even 100 times, we can just use the component and map items.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Then for screens folder, as the name suggests, it's for different screens, so if we have the `about, home, services, menu, contact etc` pages, we would have a file structure that has all those screens, and of cause each screen will render smaller components, just like science moving from small particles to molecules to actual objects or substances.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Styling
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I make use of `sass` when I style my projects, as it is easier and more cleaner to work with, as much as I do not fully integrate `sass` into my projects, as they still use `css` as rendered styling sheets, I do make use of the `Live Sass Compiler` by `Glenn Marks` which converts the sass styles into css. For most of my projects I make use of the `desktop first` styling then move onto to mobile as I find it easier to work from big to small devices.
