@@ -2,7 +2,7 @@
 
 ## Initialising and Installations
 
-This is a landing page project about a company that sells cabinets. The was fully designed by Impact Studio, both mobile and desktop design. You can visit their link on [` Impact Studio `](http://www.impactstudio.co.za/). For this project I used `ReactJS` instead of the basic `HTML, CSS and Javascript` project. To learn more about `ReactJS` you can visit the link [` ReactJS `](https://reactjs.org/docs/getting-started.html).
+This is a landing page project about a company that sells cabinets. The project was fully designed by Impact Studio, both mobile and desktop design. You can visit their link on [` Impact Studio `](http://www.impactstudio.co.za/). For this project I used `ReactJS` instead of the basic `HTML, CSS and Javascript` project. To learn more about `ReactJS` you can visit the link [` ReactJS `](https://reactjs.org/docs/getting-started.html).
 
 With the use of `ReactJS`, specifically `npm` ([` NPM `](https://www.npmjs.com/)) which is an open source library where you can borrow and share packages. I installed (borrowed) these packages:
 
