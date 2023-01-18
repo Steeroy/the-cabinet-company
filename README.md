@@ -2,9 +2,9 @@
 
 ## Initialising and Installations
 
-This is a landing page project about a company that sells cabinets. The was fully designed by Impact Studio, both mobile and desktop design. You can visit their link on [Impact Studio](http://www.impactstudio.co.za/). For this project I used `ReactJS` instead of the basic `HTML, CSS and Javascript` project. To learn more about `ReactJS` you can visit the link [ReactJS](https://reactjs.org/docs/getting-started.html).
+This is a landing page project about a company that sells cabinets. The was fully designed by Impact Studio, both mobile and desktop design. You can visit their link on [` Impact Studio `](http://www.impactstudio.co.za/). For this project I used `ReactJS` instead of the basic `HTML, CSS and Javascript` project. To learn more about `ReactJS` you can visit the link [` ReactJS `](https://reactjs.org/docs/getting-started.html).
 
-With the use of `ReactJS`, specifically `npm` ([NPM](https://www.npmjs.com/)) which is an open source library where you can borrow and share packages. I installed (borrowed) these packages:
+With the use of `ReactJS`, specifically `npm` ([` NPM `](https://www.npmjs.com/)) which is an open source library where you can borrow and share packages. I installed (borrowed) these packages:
 
 ```json
   "dependencies":
@@ -32,13 +32,14 @@ which is the `dependencies` section in `package.json`, this helps us install the
  $npx create-react-app [project_name]
 ```
 
-Then these dependencies are also installed, as they make up a basic `ReactJs` app. For most of my projects I use `Bootstrap, react-bootstrap, @iconify/react` to increase productivity. I do not fully use them, but in cases where it makes the job simpler and cleaner. You can read about the packages on [Bootstrap](https://getbootstrap.com/) (open source templates), [Iconify](https://iconify.design/) (open source icons from almost all major icons libraries such as Font Awesome, Material UI etc).
+Then these dependencies are also installed, as they make up a basic `ReactJs` app. For most of my projects I use `Bootstrap, react-bootstrap, @iconify/react` to increase productivity. I do not fully use them, but in cases where it makes the job simpler and cleaner. You can read about the packages on [` Bootstrap `](https://getbootstrap.com/) (open source templates), [` Iconify `](https://iconify.design/) (open source icons from almost all major icons libraries such as Font Awesome, Material UI etc).
 
 ## Folder Structure
 
 For most of my projects I normally approach a project using a certain way for folder structure, depending on how big the project is, determines the structure of my folders. For a big project, that would need multiple screens, I always create two folders in my `src` folder. These folders are `components` and `screens`, components folder has all the components I use in the project as general cases, things such as `product cards, navbar, footer, project cards etc`, instead of making the same items 5 to 10 and even 100 times, we can just use the component and map items.
 
 Then for screens folder, as the name suggests, it's for different screens, so if we have the `about, home, services, menu, contact etc` pages, we would have a file structure that has all those screens, and of cause each screen will render smaller components, just like science moving from small particles to molecules to actual objects or substances.
+
 
 ## Styling
 
