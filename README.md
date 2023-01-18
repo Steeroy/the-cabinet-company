@@ -2,7 +2,7 @@
 
 ## Initialising and Installations
 
-This is a landing page project about a company that sells cabinets. The project was fully designed by Impact Studio, both mobile and desktop design. You can visit their link on [` Impact Studio `](http://www.impactstudio.co.za/). For this project I used `ReactJS` instead of the basic `HTML, CSS and Javascript` project. To learn more about `ReactJS` you can visit the link [` ReactJS `](https://reactjs.org/docs/getting-started.html).
+This is a landing page project about a company that sells cabinets. The project was fully designed by Impact Studio, both mobile and desktop design. You can visit their link on [` Impact Studio `](http://www.impactstudio.co.za/). For this project I used `ReactJS` instead of a basic `HTML, CSS and Javascript` project. To learn more about `ReactJS` you can visit the link [` ReactJS `](https://reactjs.org/docs/getting-started.html).
 
 With the use of `ReactJS`, specifically `npm` ([` NPM `](https://www.npmjs.com/)) which is an open source library where you can borrow and share packages. I installed (borrowed) these packages:
 
@@ -26,13 +26,13 @@ With the use of `ReactJS`, specifically `npm` ([` NPM `](https://www.npmjs.com/)
 
 ```
 
-which is the `dependencies` section in `package.json`, this helps us install these packages with the use of `npm`, and make use of these packages. These are installed into the node modules folder. Some of the `dependencies` are pre-built, so as you initialise the project with:
+which are in the `dependencies` section in `package.json`, this helps us install these packages with the use of `npm`, and make use of these packages. These are installed into the node modules folder. Some of the `dependencies` are pre-built, so as you initialise the project with:
 
 ```js
  $npx create-react-app [project_name]
 ```
 
-Then these dependencies are also installed, as they make up a basic `ReactJs` app. For most of my projects I use `Bootstrap, react-bootstrap, @iconify/react` to increase productivity. I do not fully use them, but in cases where it makes the job simpler and cleaner. You can read about the packages on [` Bootstrap `](https://getbootstrap.com/) (open source templates), [` Iconify `](https://iconify.design/) (open source icons from almost all major icons libraries such as Font Awesome, Material UI etc).
+Then these dependencies are also installed, as they make up a basic `ReactJs` app. For most of my projects I use `Bootstrap, react-bootstrap, @iconify/react` to increase productivity. I do not fully use them, but in cases where it makes the job simpler and cleaner. You can read more about the packages on [` Bootstrap `](https://getbootstrap.com/) (open source templates), [` Iconify `](https://iconify.design/) (open source icons from almost all major icons libraries such as Font Awesome, Material UI etc).
 
 ## Folder Structure
 
@@ -43,4 +43,4 @@ Then for screens folder, as the name suggests, it's for different screens, so if
 
 ## Styling
 
-I make use of `sass` when I style my projects, as it is easier and more cleaner to work with, as much as I do not fully integrate `sass` into my projects, as they still use `css` as rendered styling sheets, I do make use of the `Live Sass Compiler` by `Glenn Marks` which converts the sass styles into css. For most of my projects I make use of the `desktop first` styling then move onto to mobile as I find it easier to work from big to small devices.
+I make use of `sass` when I style my projects, as it is easier and more cleaner to work with, as much as I do not fully integrate `sass` into my projects, as the web still uses `css` as rendered styling sheets, I do make use of the `Live Sass Compiler` by `Glenn Marks` which converts the sass styles into css. For most of my projects I make use of the `desktop first` styling then move onto to mobile as I find it easier to work from big to small devices.
